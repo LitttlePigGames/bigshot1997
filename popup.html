@@ -1,7 +1,4 @@
 <!DOCTYPE html>
-<script>
-window.open('https://litttlepiggames.github.io/bigshot1997/popup.html','popupad','width=640,height=270')
-</script>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -12,7 +9,13 @@ window.open('https://litttlepiggames.github.io/bigshot1997/popup.html','popupad'
       margin: 0;
       padding: 0;
       background: url('https://litttlepiggames.github.io/bigshot1997/popup.png') no-repeat center center fixed;
-      background-size: cover; /* Ensures the GIF covers the entire screen */
+      background-size: cover;
+      <script>
+        // Add a click event listener to the entire document
+        document.addEventListener('click', function() {
+          window.open('https://litttlepiggames.github.io/bigshot1997/popup.html','popupad','width=640,height=270')
+        });
+      </script>
     }
   </style>
 </head>
